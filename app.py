@@ -130,7 +130,7 @@ except:
 
 col_logo, _ = st.columns([1, 5])
 with col_logo:
-    st.image("logo.png", width=140) 
+    st.image("logo.png", width=340) 
 
 st.title("Asistente de Sentencias - Primera Sala de la SCJ")
 st.markdown("Busca expedientes por palabra clave y luego consulta sobre los documentos encontrados.")
