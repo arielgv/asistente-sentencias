@@ -107,7 +107,6 @@ def download_and_extract_pdf(url, timeout=30):
 
 st.set_page_config(page_title="Asistente Sentencias Primera Sala", layout="wide")
 
-# Intentamos colocar logo en esquina superior izquierda
 try:
     st.markdown(
         """
@@ -129,7 +128,6 @@ try:
 except:
     pass
 
-# Alternativa simple (si el CSS anterior no funciona en tu versión de Streamlit)
 col_logo, _ = st.columns([1, 5])
 with col_logo:
     st.image(
