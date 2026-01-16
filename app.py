@@ -130,11 +130,7 @@ except:
 
 col_logo, _ = st.columns([1, 5])
 with col_logo:
-    st.image(
-        "https://poderjudicial.gob.do/wp-content/uploads/2022/09/Logo-Poder-Judicial@3x.png",
-        width=140,
-        caption="Poder Judicial"
-    )
+    st.image("logo.png", width=140) 
 
 st.title("Asistente de Sentencias - Primera Sala de la SCJ")
 st.markdown("Busca expedientes por palabra clave y luego consulta sobre los documentos encontrados.")
