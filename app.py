@@ -239,7 +239,7 @@ Partes: {doc['parties']}
                 st.session_state.context = full_context
                 
                 successful_docs = sum(1 for d in st.session_state.parsed_docs if not d['text'].startswith("["))
-                st.info(f"📚 Contexto cargado: {successful_docs} documentos válidos")
+                st.info(f" - Contexto cargado: {successful_docs} documentos válidos")
 
 # ─── CHAT INTERFACE ─────────────────────────────────────────────────────────
 if 'context' in st.session_state and st.session_state.context:
